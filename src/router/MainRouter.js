@@ -7,6 +7,7 @@ import SignUp from "../component/user/SignUp";
 import LogIn from "../component/user/LogIn";
 import Detail from "../component/user/Detail";
 import Cart from "../component/user/dashboard/Cart";
+import OrderNow from "../component/user/dashboard/OrderNow";
 
 
 
@@ -28,6 +29,7 @@ export const MainRouter=createBrowserRouter (
 <Route path="contactus" element={<Contactus/>}/>
 <Route path="detail" element={<Detail/>}/>
 <Route path="cart" element={<Cart/>}/>
+<Route path="ordernow" element={<OrderNow/>}/>
 
 
 </Route>

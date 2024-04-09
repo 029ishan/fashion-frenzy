@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAppContext } from '../ContextApi'
+import { Link } from 'react-router-dom';
 import { DeleteFilled, MinusOutlined, PlusCircleFilled } from '@ant-design/icons';
 import { Button } from 'antd';
 import { updataCard } from '../../Redux/Slices/AddtoCart';
@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from 'react-redux'
 
 
 const Order = () => {
-  const { appState } = useAppContext();
   const dispatch = useDispatch()
   const carditem = useSelector((state) => state)
   const [orderData, setOrderData] = React.useState([]);
@@ -58,11 +57,12 @@ const Order = () => {
 
   }, [carditem?.addtocard?.data]);
 
-  const GrossPrice = appState.addtocart.reduce((previous, item) => {
+  const GrossPrice = carditem.addtocard.data.reduce((previous, item) => {
     return (
       (item.price * item.qty) + previous
     )
   }, 0)
+  
   return (
     <div>
       <h1>Ordered</h1>
@@ -93,8 +93,10 @@ const Order = () => {
         })
       }
       <div>
-        <h1 className='bg-red-200 w-32 '>Gross price: ${GrossPrice}  </h1>
+        <h1 className='bg-red-200 w-32'>Gross price: ${GrossPrice}  </h1>
+        <Link to ='/ordernow'> 
         <Button className=' bg-green-500 text-white w-full'>Buy Now</Button>
+        </Link>
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ export const hotproducts=[
     name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt-vPzUfAoSwqPWC4464GRdNFhTOjQc5_AmTpo7ktTw&s',
     qty:1,
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'1',
@@ -17,7 +17,7 @@ export const hotproducts=[
       {
         name:'sweater',
     image:'https://www.travelandleisure.com/thmb/X7YkPT22zUM8v0xUiz08-DIBmek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sweaters-for-Men-TL-tout-36700df70d7a4f438d39fa03442986a0.jpg',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'2',
@@ -30,7 +30,7 @@ export const hotproducts=[
       },{
         name:'Wollen dress ',
         image:'https://media.gq.com/photos/654e5cae905847e9c9e10470/master/pass/winter-essentials.jpg',
-        price:'60200',
+        price:60200,
         discription:'warm and best',
         brand:'abfjfc',
         id:'3',
@@ -49,7 +49,7 @@ export const hotproducts=[
   {
     name:'Hoodie',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcGwBJC16jYr6cv-VlpKeXMQzvgqiYDw70mPj-kqScmg&s',
-    price:'12000',
+    price:12000,
     discription:'Best winter Hoodie',
     brand:'fsfs',
     id:'4',
@@ -63,7 +63,7 @@ export const hotproducts=[
       {
         name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc62zOzNHDaBGYJKze3UdEs5IKeUo1u9ldnYeu9TVbwQ&s',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'5',
@@ -77,7 +77,7 @@ export const hotproducts=[
       {
         name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt-vPzUfAoSwqPWC4464GRdNFhTOjQc5_AmTpo7ktTw&s',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'6',
@@ -90,7 +90,7 @@ export const hotproducts=[
       {
         name:'sweater',
     image:'https://www.travelandleisure.com/thmb/X7YkPT22zUM8v0xUiz08-DIBmek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sweaters-for-Men-TL-tout-36700df70d7a4f438d39fa03442986a0.jpg',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'7',
@@ -102,7 +102,7 @@ export const hotproducts=[
       },{
         name:'Wollen dress ',
         image:'https://media.gq.com/photos/654e5cae905847e9c9e10470/master/pass/winter-essentials.jpg',
-        price:'60200',
+        price:60200,
         discription:'warm and best',
         brand:'abfjfc',
         id:'8',
@@ -118,7 +118,7 @@ export const hotproducts=[
   {
     name:'T-shirt',
     image:'https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_1920/site-merchandising/00f0b527-f041-4cca-aceb-60572ca7686a/en-au/ANZS-tshirt-cat-marquee-001',
-    price:'4000',
+    price:4000,
     discription:'best of the best',
     brand:'DVDSF',
     id:'9',
@@ -131,7 +131,7 @@ export const hotproducts=[
       {
         name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt-vPzUfAoSwqPWC4464GRdNFhTOjQc5_AmTpo7ktTw&s',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'10',
@@ -143,7 +143,7 @@ export const hotproducts=[
       },      {
         name:'sweater',
     image:'https://www.travelandleisure.com/thmb/X7YkPT22zUM8v0xUiz08-DIBmek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sweaters-for-Men-TL-tout-36700df70d7a4f438d39fa03442986a0.jpg',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'11',
@@ -158,7 +158,7 @@ export const hotproducts=[
   {
     name:'Shoes',
     image:'https://www.azzurrasport.eu/pub/media/catalog/product/cache/0b8817121aedd409f092350af4c5165e/1/5/15815-lacoste-scarpa-uomo-lerond-pro-1r5_01.jpg',
-    price:'13000',
+    price:13000,
     discription:' new arrival',
     brand:'Lacoste',
     id:'12',
@@ -171,7 +171,7 @@ export const hotproducts=[
       {
         name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt-vPzUfAoSwqPWC4464GRdNFhTOjQc5_AmTpo7ktTw&s',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'13',
@@ -184,7 +184,7 @@ export const hotproducts=[
       {
         name:'sweater',
     image:'https://www.travelandleisure.com/thmb/X7YkPT22zUM8v0xUiz08-DIBmek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sweaters-for-Men-TL-tout-36700df70d7a4f438d39fa03442986a0.jpg',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'14',
@@ -201,7 +201,7 @@ export const hotproducts=[
   {
     name:'Wollen dress ',
     image:'https://media.gq.com/photos/654e5cae905847e9c9e10470/master/pass/winter-essentials.jpg',
-    price:'60200',
+    price:60200,
     discription:'warm and best',
     brand:'abfjfc',
     id:'15',
@@ -214,7 +214,7 @@ export const hotproducts=[
       {
         name:'Jacket',
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt-vPzUfAoSwqPWC4464GRdNFhTOjQc5_AmTpo7ktTw&s',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'16',
@@ -226,7 +226,7 @@ export const hotproducts=[
       },      {
         name:'sweater',
     image:'https://www.travelandleisure.com/thmb/X7YkPT22zUM8v0xUiz08-DIBmek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Sweaters-for-Men-TL-tout-36700df70d7a4f438d39fa03442986a0.jpg',
-    price:'10000',
+    price:10000,
     discription:'Best for Adult',
     brand:'abc',
     id:'17',
@@ -248,14 +248,14 @@ export const hotproducts=[
     {
       name:'Track',
       image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3g15QEPY6HZw3R7e67s50GWGstT1z4Rc0kOSymbvww&s',
-      price:'1200',
+      price:1200,
       discription:' water proof jacket',
       brand:'abc',
       id:'18',
       rating:'3',
       qty:1,
       discount:'13',
-    view:'1100',
+    view:1100,
     stock:'1010',
     },
 
@@ -263,7 +263,7 @@ export const hotproducts=[
     {
       name:'Hoodie',
       image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNaGJbiJ_oi_a_Y3WWndrBTf32tUaFwXv2JEAby10g&s',
-      price:'12000',
+      price:12000,
       discription:'Best for Adult winter Hoodie',
       brand:'fsfs',
       id:'19',
@@ -276,7 +276,7 @@ export const hotproducts=[
     {
       name:'T-shirt',
       image:'https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_1920/site-merchandising/00f0b527-f041-4cca-aceb-60572ca7686a/en-au/ANZS-tshirt-cat-marquee-001',
-      price:'4000',
+      price:4000,
       discription:'best of the best',
       brand:'DVDSF',
       id:'20',
@@ -289,7 +289,7 @@ export const hotproducts=[
     {
       name:'Shoes',
       image:'https://www.azzurrasport.eu/pub/media/catalog/product/cache/0b8817121aedd409f092350af4c5165e/1/5/15815-lacoste-scarpa-uomo-lerond-pro-1r5_01.jpg',
-      price:'13000',
+      price:1300,
       discription:'Best arrival',
       brand:'Lacoste',
       id:'21',
@@ -304,7 +304,7 @@ export const hotproducts=[
     {
       name:'Wollen dress ',
       image:'https://media.gq.com/photos/654e5cae905847e9c9e10470/master/pass/winter-essentials.jpg',
-      price:'60200',
+      price:60200,
       discription:'warm and best',
       brand:'abfjfc',
       id:'22',
@@ -317,3 +317,26 @@ export const hotproducts=[
     
   
   ]
+  export const Payment=[
+    {
+      name:"Esewa",
+      color:"limegreen",
+      id:123,
+      logo:"https://th.bing.com/th/id/OIP.iJwN4-dPt7UkbndhLEycVAHaD4?rs=1&pid=ImgDetMain"
+
+  },
+    {
+      name:"Khalti",
+      color:"indigo",
+      id:1453,
+      logo:"https://yt3.ggpht.com/a/AATXAJxlvcOqurtA1Q7IPDbNKICwDmlbkH80bEEbxg=s900-c-k-c0xffffffff-no-rj-mo"
+
+  },
+    {
+      name:"C.O.D",
+      color:"orange",
+      id:873,
+      logo:"https://th.bing.com/th/id/OIP.DqhsSpVNpCI5VC5BOTpCcQHaEE?rs=1&pid=ImgDetMain",
+
+  },
+]
