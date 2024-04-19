@@ -1,8 +1,11 @@
 import axios from 'axios';
 import {createAsyncThunk} from '@reduxjs/toolkit';
+import {notification} from "antd"
+
+
 export const userLogin = createAsyncThunk(
     "auth/login",
-    async ({username,password},{rejectWithValue}) => {
+    async ({username,password}) => {
       try{
         const config={
             headers: {
@@ -14,14 +17,23 @@ export const userLogin = createAsyncThunk(
             {username,password},
             config
         );
+
+
+          
+          notification.success({
+            message: 'Success',
+            description:"Success"
+          })
+        
+         
+
         return data;
       }catch(error){
-        if (error.response && error.response.data.message){
-            return rejectWithValue(error.response.data.message);
-        }else{
-            return rejectWithValue (error.message);l
-        }
+        console.log("dfaf",error);
+        notification.error({
+          message: 'Error',
+          description:error?.response?.data
+        })
       }
-    },
-        
-)
+    }
+    )

@@ -9,6 +9,11 @@ import Detail from "../component/user/Detail";
 import Cart from "../component/user/dashboard/Cart";
 import OrderNow from "../component/user/dashboard/OrderNow";
 
+import AdminProfile from "../component/admin/AdminProfile";
+import UserList from "../component/admin/UserList";
+import HotProduct from "../component/admin/HotProduct";
+
+
 
 
 
@@ -36,6 +41,11 @@ export const MainRouter=createBrowserRouter (
 
 <Route path="/admin" element={<AdminLayout/>}>
 <Route path="dashboard" element={<AdminDashboard/>}/> 
+<Route path="userlist" element={<UserList/>}/> 
+<Route path="profile" element={<AdminProfile/>}/> 
+<Route path="hotproduct" element={<HotProduct/>}/> 
+
+
 </Route>
 
 <Route path="/login" element={<LogIn/>}/> 

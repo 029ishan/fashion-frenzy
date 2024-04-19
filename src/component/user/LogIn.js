@@ -4,14 +4,22 @@ import { Button, Checkbox, Form, Input,Modal } from 'antd';
 import { Link } from "react-router-dom";
 import { HomeOutlined } from "@ant-design/icons";
 import { useState } from "react";
-
-
+import {useDispatch,useSelector} from "react-redux"
+import { userLogin } from "../../services/LoginAction";
 
 
 
 const LogIn = () => {
-  const onFinish = (name) => {
-    console.log('Success:', name);
+ 
+  
+  const dispatch=useDispatch();
+  const onFinish = (values) => {
+
+
+console.log('ajbsdf',values);
+     userLogin(values)(dispatch).unwrap();
+    
+ 
   };
   const [isModalOpen,setIsModalOpen] =useState(false);
   const showModal = () => {
@@ -25,7 +33,11 @@ const LogIn = () => {
   };
 
  
+  const data=useSelector((state)=>state)
+  console.log("add2e",data?.authinfo?.loading)
 
+
+  
   return (
     <div className=" flex justify-center py-5">
       <Card className=" w-[540px] min-h-80 font-varela border-none 
@@ -37,7 +49,7 @@ const LogIn = () => {
             <Form
               onFinish={onFinish} layout="vertical">
               <section className=" text-left">
-                <Form.Item
+                <Form.Item label= "username"
                   name="username"
                   rules={[
                     {
@@ -45,11 +57,11 @@ const LogIn = () => {
                       message: 'Please input your username!',
                     },
                   ]} className=" my-2">
-                  <h1 className=" font-varela py-1.5">* Username</h1>
+                  
                   <Input className=" w-64" />
                 </Form.Item>
 
-                <Form.Item
+                <Form.Item label="password"
                   name="password"
                   rules={[
                     {
@@ -57,7 +69,7 @@ const LogIn = () => {
                       message: 'Please input your password!',
                     },
                   ]} className=" my-2">
-                  <h1 className=" font-varela py-1.5">* Password</h1>
+                  
                   <Input.Password className=" w-64 " />
                 </Form.Item>
               </section>
@@ -68,9 +80,11 @@ const LogIn = () => {
                 </Form.Item>
                 <section className="flex gap-2">
                   <Form.Item>
-                    <Button className=" bg-black text-white border-none " htmlType="submit">
+                  <Link to ="/">
+                    <Button className=" bg-black text-white border-none " htmlType="submit" loading={data?.authinfo?.loading}>
                       <p className=" font-varela">Submit</p>
                     </Button>
+                    </Link>
                   </Form.Item>
                   <Form.Item>
                     <Button className=" bg-black text-white border-none " htmlType="submit">

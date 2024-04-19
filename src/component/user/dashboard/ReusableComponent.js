@@ -43,7 +43,7 @@ const ReusableComponent = ({ title, data }) => {
                   cover={<img alt="example" src={item.image} className=' h-44' />}>
                     
                   <h1>Price: {item.price} Rs</h1>
-                  <h1>{item.description}</h1>
+                  {/* <h1>{item.description}</h1> */}
                   <h1>Brand: {item.brand}</h1>
                  
                 </Card>
